@@ -528,7 +528,7 @@ function handleGoogleSignIn() {
     }
 
     if (typeof google === 'undefined' || !google.accounts) {
-        alert('Google Sign-In library is still loading. Please try again in a moment.');
+        alert('Google Sign-In is loading. Please wait a moment and try again.');
         return;
     }
 
